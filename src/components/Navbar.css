@@ -1,0 +1,18 @@
+.navbar-text {
+    font-size: 1.7rem;
+    color: white;
+    margin: 1.5rem;
+}
+
+.navbar {
+    margin-top: 0.5rem
+}
+
+.navbar-link {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.navbar-link:hover {
+    color: #c1bebe;
+}   

@@ -1,4 +1,7 @@
-<h1 class="text-5xl font-bold underline">
-    Hello world!
+<script lang="ts">
+    import Hover from '../components/Hover.svelte';
+</script>
+
+<h1>
+    <Hover />
 </h1>
-  

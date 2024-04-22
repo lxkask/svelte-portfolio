@@ -1,0 +1,38 @@
+.wrapper {
+    width: 100%;
+    color: white;
+}
+
+section {
+    display: inline-block;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 36px;
+    pointer-event: none;
+    transition: transform 0.1s linear;
+    margin-bottom: 10px;
+}
+
+span {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hover-this {
+    transition: all 0.3s ease;
+}
+
+.cursor {
+    pointer-events: none;
+    position: fixed;
+    padding: 0.3rem;
+    background-color: #fff;
+    border-radius: 50%;
+    mix-blend-mode: difference;
+    transition: transform 0.3s ease;
+}
+
+.hover-this:hover ~ .cursor {
+    transform:translate(-50%, -50%) scale(8);
+}
